@@ -7,88 +7,133 @@
     <meta name="viewport" content="width=device-width,
                                    initial-scale=1.0">
     <title>Página HTML</title>
- 
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Define a parte textual e de midia digital 
-     da página WEB -->
-     <div>
-        <!-- tags garantem estrtura e organização.
-         Sintaxe: <nomedatag></nomedatag> -->
-         <!-- Cabeçalho-->
-         <header>
-            <!-- Títulos e menus-->
-            <h1>Minha primeira página Web</h1>
+   
+<header class="menu">
+            <h1>Minha <br> primeira<br> página<br> <span>HTML</span></h1>
             <nav> <a href="#">Inicio</a>
-                  <a href="#">Vídeo</a>
+                  <a href=
+                  "https://www.youtube.com/playlist?list=PLVHouDz-0lTSfJZX2PCFkk6Kvmp1s1kNJ"
+                  target="_blank">Vídeo</a>
                   <a href="#">Cards</a>
-                  <a href="#">Exempos</a>
+                  <a href="#">Exemplos</a>
                 </nav>
         </header>
-        <hr/>
-        <!--Conteúdo Principal-->
-        <main>
-         <!--Define parágrafos-->
-         <p>O que o HTML pode fazer!?</p>
-         <section>
+      
+<main>
+    <div class="card">
+        <img src="https://64.media.tumblr.com/d7094e2ce2af77c64597328d79d21e7c/ee1bc76537ba47a0-50/s1280x1920/2142a7e48b3feceb8ad214ce52935b55882e0085.png"/ class="avatar">
+        <div class="container">
+            <h3>O que o HTML pode fazer!?</h3>
+            <section>
             <hgroup>
             <h2>Subtítulos</h2>
             <h3>Com vários</h3>
             <h5>Tamanhos</h5>
             </hgroup>
          </section>
-         <!--Siglas -->
-         <aside><abbr title="Siglas">SIGLAS</abbr></aside>
-         <!--Endereço -->
-        <article>
-         <address>
-            Contato:
-            Email:
-         </address>
+            
+            <hr/>
+             <aside><abbr title="Siglas">SIGLAS</abbr></aside>
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://64.media.tumblr.com/306c4f7e71dd08d1c94bcdbcabdfbc16/6f28bf03a1bbae60-0c/s1280x1920/d80e0b8b5ca7ab61d3168c811382751a6aa882e3.pnj"/ class="avatar">
+        <div class="container">
+        <h3>Define</h3>
+         <article>
+                <address>
+                endereço:
+                Ex.: Contato e e-mail
+                </address>
          </article>
-         <!-- Sumário -->
          <details>
-            <summary>Sumário</summary>
+            <summary title="Clique para ver opçoes">Sumários</summary>
             <p>Veja alguns exemplos</p>
+            <p>Clique no botão</p>
          </details>
-         <!-- Cria links -->
-         <a href="#">Criar Links</a>
-         <!-- Listas ordenadas e não-ordenadas -->
-         <ul>
+         <hr/>
+         <a href="#">Criar Links</a>    
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://64.media.tumblr.com/c99b77ebcbc0a7b7dd9792166e832e4f/0b4ea27f35386362-4a/s1280x1920/00feff4d62ff1f03b896157c0f5c1e3c7a6d11fe.pnj"/ class="avatar">
+        <div class="container">
+            <h3>Cria</h3>
+            <ul>
             <li type="circle">Listas</li>
             <li>Itém da lista</li>
             <li>Itém da lista</li>
          </ul>
+         <hr/>
          <ol>
             <li>Listas Numéricas</li>
             <li>Itém da lista</li>
             <li>Itém da lista</li>
          </ol>
-        <!-- Botões -->
-         <button>Criar Botões</button>
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+        <div class="card">
+        <img src="https://64.media.tumblr.com/092acef47610887ce8236698e9bfdbe6/c79c57cd982cc6e2-f9/s500x750/d4048136d13b25cb473f629cc79708b262e1677e.pnj    "/ class="avatar">
+        <div class="container">
+             <button>Criar Botões</button>
          <input type="submit" value="De várias formas">
            <form>
             <input type="checkbox"> Botão de seleção
             <input type="checkbox"> Botão de seleção
          </form>
+         <hr/>
          <form>
             <input type="radio" name="opcao">Botão de opção
             <input type="radio" name="opcao">Botão de opção
             <input type="radio" name="opcao">Botão de opção
          </form>
-          <progress max="100" value="70"></progress>
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+        <div class="card">
+        <img src="https://64.media.tumblr.com/57b0d990282c23aad7305e136e6898fb/277983748d34cfc7-e1/s1280x1920/8fe469e4055e998feee759b122aff8d8a93fd7d7.pnj"/ class="avatar">
+        <div class="container">
+            <h3>Barras e inputs</h3>
+            <progress max="100" value="70"></progress>
          <meter value="0.6" min="0" max="1">60%</meter>
-        <!--Tipos de input -->
          <input type="range">
-         <input type="color">
+            
+          
+        <input type="color">
          <input type="date">
+           <hr/>
          <input type="month">
          <input type="password" placeholder="Senhas">
-         <input type="image">
-         <input type="number" min="1" max="5" placeholder="Nº">
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+        <div class="card">
+        <img src="https://64.media.tumblr.com/e36e6cc940f06e2495b5c5889ec9c891/85ce35d5dd8007d0-79/s1280x1920/684e6698bd977bd423a86dd4ee29f2f006e5fa8a.pnj"/ class="avatar">
+        <div class="container">
+            
+            <input type="number" min="1" max="5" placeholder="Nº">
          <input type="file">
+          <hr/>
          <form>
-            <!-- Listas e caixas de texto -->
             <select>
                 <option>Lista suspensa</option>
                 <option>Opção 1</option>
@@ -103,22 +148,48 @@
                 <option value="Sugestão 2">
             </datalist>
          </form>
-         <input placeholder="E campos de texto">
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+        <div class="card">
+        <img src="https://64.media.tumblr.com/d51333c0397ce9f6456b4604ae0033e4/eba622022a31b695-9e/s1280x1920/2b2288df51f6a0ee669ada58a55028482f12a1fc.pnj"/ class="avatar">
+        <div class="container">
+           <h3>Todo tipo de texto</h3>
+            <input placeholder="E campos de texto">
+              <hr/>
          <textarea placeholder="Áreas de texto"></textarea>
-        <!-- Tabelas --> 
-         <table border="1">
-            <caption>Pode</caption>
-            <tr>
-                <th>criar</th>
+            
+   
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://64.media.tumblr.com/802f2c9d9da0d50ab173fdcd56907f04/4f40fc025b609763-1e/s1280x1920/19f735d40347f00a8016ea974d742ee36e62a24c.pnj"/ class="avatar">
+        <div class="container">
+            
+               <table >
+            <caption>E ainda pode</caption>
+            <tr >
+                <th>Criar</th>
                 <th>tabelas</th>
+                <th>de várias</th>
+                <th>formas</th>
             </tr>
             <tr>
                <td>Dados 1</td>
-               <td>Dados 2</td> 
+               <td>Dados 2</td>
+               <td>Dados 3</td>
+               <td>Dados 4</td>
             </tr>
          </table>
-         <!--Organizar campos-->
-         <form>
+            
+            <hr/>
+              <form>
             <fieldset>
                 <legend>Organizar campos: </legend>
                 <label for="campo1">Campo 1</label>
@@ -127,8 +198,16 @@
                 <input type="text" id="campo2" campo2="Campo 2">
             </fieldset>
          </form>
-        <!-- Imagens, vídeos e aúdios -->
-         <figure>
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://64.media.tumblr.com/8a394f0faf6fc5fb763c604f34d3d0fb/4f40fc025b609763-18/s1280x1920/799a970f17ef97f512e285aeb38a1dfe29976e33.pnj"/ class="avatar">
+        <div class="container">
+            <figure>
          <img
          width="100"
          height="100"
@@ -137,29 +216,45 @@
          src="https://videos.openai.com/vg-assets/assets%2Ftask_01k5cm00jcfcc9dds296r418jj%2F1758139097_img_1.webp?st=2025-09-17T18%3A54%3A26Z&se=2025-09-23T19%3A54%3A26Z&sks=b&skt=2025-09-17T18%3A54%3A26Z&ske=2025-09-23T19%3A54%3A26Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=F1GeZouTix%2BuVjDAK0YDkhfaCDBaNhgj8pUvlcXSiJs%3D&az=oaivgprodscus">
         <figcaption>Imagem e legendas</figcaption> 
         </figure>   
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
         </div>
+    </div>
 
-        <video controls width="200" height="100">
+    <div class="card">
+        <img src="https://64.media.tumblr.com/5977fa1038eee0acc6e995400aa82666/4f40fc025b609763-83/s1280x1920/afa5c443ed786902077480a222f2805200b955b2.pnj"/ class="avatar">
+        <div class="container">
+            <video controls width="200" height="100">
             <source src="https://va.media.tumblr.com/tumblr_t2r2iv01xM1qjt39c.mp4"
                     type="video/mp4">
         </video>
+         <hr/>
         <audio controls>
             <source src="internet-discada.mp3" type="audio/mp3">
         </audio>
-        <!--Outros sites-->
-        <iframe src="https://www.wikipedia.org/"></iframe>
-        </main>
-        
+            <p class="italico">Cruso front end developer</p>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
 
-
-        <!--Rodapé-->
-        <footer>
-            <!--Caixa de citação-->
+    <div class="card">
+        <img src="https://64.media.tumblr.com/a67b13605c9bf0d56d9ab78bec220cb6/4f40fc025b609763-5c/s1280x1920/e6791c42a031c1eb0f2a078b5072235ca14b8f1f.pnj"/ class="avatar">
+        <div class="container">
+            <h3>E muito mais</h3>
+            <iframe src="https://www.wikipedia.org/"></iframe>
+             <button class="but but-style"><i data-lucide="star"></i>Exemplo</button>
+            <h4>Mossoró/RN</h4>
+        </div>
+    </div>
+</main>
+<footer>
             <blockquote>
-                <q>A educação tem ligação com a técnlogia e isso é ótimo para quem 
+                <q>A educação desenvolve técnlogia e isso é ótimo para quem 
                     busca conhecimento</q>
                 <cite>— Pedro Passos.</cite>
             </blockquote>
-        </footer>
+</footer>
 </body>
 </html>
